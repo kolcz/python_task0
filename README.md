@@ -44,21 +44,19 @@ Write a function `PowerModulo(a,b,n)` which will calculate the [reminder](https:
 
 For example:
 ```
-> PowerModulo(2,1,10)
-2
-> PowerModulo(2,2,10)
-4
-> PowerModulo(2,3,10)
+> PowerModulo(2,3,10) # 8 mod 10 = 8
 8
-> PowerModulo(2,4,10)
+> PowerModulo(2,4,10) # 16 mod 10 = 6
 6
-> PowerModulo(2,5,10)
+> PowerModulo(2,5,10) # 32 mod 10 = 2
 2
-> PowerModulo(2,6,10)
-4
 ```
 
-Implement is so that the value can be calculated for very high numbers (including `b`).
+Implement is so that the value can be calculated for **very high numbers (including `b`)**, for example:
+```
+> PowerModulo(2,200,100)
+76
+```
 
 Clue: *To calculate `a^(2^k)~ you need only `k` multiplications*
 
