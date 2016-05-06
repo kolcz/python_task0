@@ -58,7 +58,7 @@ Implement is so that the value can be calculated for **very high numbers (includ
 76
 ```
 
-Clue: *To calculate `a^(2^k)~ you need only `k` multiplications*
+Clue: *To calculate `a^(2^k)` you need only `k` multiplications*
 
 ## Excercise 5
 
