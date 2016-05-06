@@ -8,7 +8,11 @@ Create a function `Newton(n,m)` which for integers `n` and `m` will return an in
 
 ![n over m](https://latex.codecogs.com/gif.latex?\\left(\\begin{matrix}n\\\\m\\end{matrix}\\right)%3D\\frac{n!}{m!(n-m)!})
 
-Do it so that the result will be still good for high values of `n`
+Do it so that the result will be still good for **high values of `n`**, for example:
+```python
+> Newton(200,2)
+19900
+```
 
 ## Excercise 2
 
