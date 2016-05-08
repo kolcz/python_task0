@@ -5,6 +5,13 @@ sys.path.append(os.getcwd())
 from solution import Newton, Pascal, LotOfHash
 from random import randint
 
+import signal
+def signal_handler(signum, frame):
+    raise Exception("Exceeded total execution time: 5s!")
+signal.signal(signal.SIGALRM, signal_handler)
+signal.alarm(5)
+
+
 print "Testing Newton ..."
 n = randint(10,15)
 x = [Newton(n, i) for i in range(n+1)]

@@ -4,6 +4,12 @@ sys.path.append(os.getcwd())
 from solution import Intersect
 from random import randint, uniform
 
+import signal
+def signal_handler(signum, frame):
+    raise Exception("Exceeded total execution time: 5s!")
+signal.signal(signal.SIGALRM, signal_handler)
+signal.alarm(5)
+
 print "Testing Intersect ..."
 
 n = randint(8,15)*2

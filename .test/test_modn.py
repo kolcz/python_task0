@@ -9,7 +9,6 @@ from resource import getrusage as resource_usage, RUSAGE_SELF
 from time import time as timestamp
 
 import signal
-
 def signal_handler(signum, frame):
     raise Exception("Exceeded total execution time: 5s!")
 signal.signal(signal.SIGALRM, signal_handler)
