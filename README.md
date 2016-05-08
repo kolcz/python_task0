@@ -1,6 +1,29 @@
 # Python Excercises (Task 0)
 
-Create a file `solution.py` with the described functions and a file `test.py` that will evaluate them for a selected set of inputs (your choice).
+Create a file `solution.py` with the functions described below. Add also a file called `test.py` that will test these functions in a manner of your choice.
+
+### Preparation
+
+First fork this repository, by clicking the nice [**Fork**](https://github.com/ccfd/python_task0#fork-destination-box) button on the top of the page. Then you'll have your own copy of the repository. You can open it in your favorite Python editor.
+
+Create the needed files and add them to your repository (`git add solution.py test.py`). Then, push them to your fork at github (`git push`). You should see yourself in the [network graph](https://github.com/ccfd/python_task0/network). Now you are ready to solve the problems at hand.
+
+### Testing
+
+You should test your functions before you submit them to us. Especially in this task, notice the places where we say that it needs to work for high `n` or something. **These are simple excercises, but they need a bit of thinking to do them right!**
+
+After you've solved all the excercises, push them all to your fork. Check if all your changes are visible on github.com and create a Pull Request (a nice green button on top of your fork page). The pull request will be automagickly tested with [Travis-CI](https://travis-ci.org/). The results will show as a green checkmark or a sad red x.
+
+### Open source and public work
+
+Yes, we know that you can open another person's fork and copy the solutions. Yay, you got an green checkmark for free! You can be proud of yourself. Have [another one](https://solidwize.com/wp-content/uploads/2012/04/Green-Check-Mark.jpg). Freshly copy-pasted from [google images](http://images.lmgtfy.com/?q=checkmark).
+
+<blockquote>
+<p>If you copy your homework in school,<br/>
+don't be suprised that when you grow up,<br/>
+you'll get paid with money from monopoly</p>
+<footer> — <i>Ancient Chinese Proverb</i></footer>
+</blockquote>
 
 ## Excercise 1
 
