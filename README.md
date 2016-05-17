@@ -14,7 +14,7 @@ You should test your functions before you submit them to us. Especially in this 
 
 After you've solved all the excercises, push them all to your fork. Check if all your changes are visible on github.com and create a Pull Request (a nice green button on top of your fork page). The pull request will be automagickly tested with [Travis-CI](https://travis-ci.org/). The results will show as a green checkmark or a sad red x.
 
-**IMPORTANT:**: *In this task, you cannot use `scipy`, `numpy`, or `matplotlib`
+**IMPORTANT:** *In this task, you cannot use `scipy`, `numpy`, or `matplotlib`*
 
 ### Open source and public work
 
